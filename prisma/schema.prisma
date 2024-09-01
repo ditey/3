@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("postgresql://fb_owner:7SRupxE6NIeh@ep-white-term-a20n26b8.eu-central-1.aws.neon.tech/fb?sslmode=require")
 }
 
 model Session {
